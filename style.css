@@ -1,0 +1,235 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:  'Roboto', sans-serif;;
+    background-color: rgb(20, 17, 17);
+    width: 100%;
+}
+
+.head{
+    padding: 3%;
+    width: 100%;
+  
+    
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+nav h1{
+    font-size: 30px;
+    color: azure;
+    cursor: pointer;
+    letter-spacing: 0.3rem;
+}
+span{
+    color: red;
+}
+nav a{
+    display: inline;
+    text-decoration: none;
+    color: azure;
+    transition: 0.4s;
+    
+}
+nav a:hover{
+    color:red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 1.5rem;
+    
+}
+.button{
+    padding:3%;
+    position: relative;
+    top:160px;
+    
+}
+div h3{
+    padding: 10px;
+    color:azure;
+
+}
+div h1{
+    padding: 10px;
+    color: azure;
+    font-size: 35px;
+}
+div h4{
+    padding: 10px;
+    color: azure;
+}
+.sociale img{
+    width: 40px;
+    padding-right: 10px;
+   
+}
+.sociale {
+    padding:10px;
+    margin: 0.4rem;
+}
+.photo img{
+    width: 200px;
+    position: absolute;
+    right: 0;
+    bottom:1px;
+    align-items: center;
+   
+}
+#aboutme{
+    background-color: rgb(43, 41, 41);
+    position: relative;
+    top:290px;
+    width: 100%;
+    
+  
+}
+.tet img{
+    width: 500px;
+    padding:40px;
+    margin: 0.8rem;
+    position: relative;
+    top:250px;
+}
+p{
+    color: azure;
+}
+.card{
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    width:300px;
+    left: 600px;
+    background-color: rgb(48, 38, 38);
+    border-radius: 30px;
+    transition: 0.7s;
+    cursor: pointer;
+   
+ 
+   
+}
+.card:hover{
+   background-color:rgb(158, 141, 116) ;
+   box-shadow: 10px 5px 10px 10px azure;
+   
+   
+}
+.txt{
+    text-align: center;
+    position: relative;
+    bottom: 400px;
+    width:300px;
+    height: 300px;
+    left: 70rem;
+    background-color: rgb(48, 38, 38);
+    border-radius: 30px;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+.txt:hover{
+    background-color:rgb(158, 141, 116) ;
+   box-shadow: 10px 5px 10px 10px azure;
+
+}
+.center{
+    background-color:rgb(82, 66, 66); ;
+   
+    height: 800px;
+    position: relative;
+    top: 300px;
+    width: 100%;
+   
+}
+
+
+.foot{
+    
+    width: 100%;
+   
+    background-color: rgb(58, 56, 53);
+}
+.gold{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(110, 81, 81);
+    margin: 20px;
+    position: relative;
+    top:70px;
+    border-radius: 30px;
+    left:400px;
+    transition: 0.7s;
+
+    box-shadow: 10px 5px 10px 10px azure;
+    
+
+}
+
+
+.gold:hover{
+    color: aquamarine;
+    box-shadow: 30px;
+}
+
+
+.gold h1{
+    position: relative;
+    left:40px;
+    top:40px;
+}
+.gold h2{
+    position: relative;
+    left:10px;
+    top:90px;
+}
+.contant{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(110, 81, 81);
+    margin: 20px;
+    position: relative;
+    bottom: 250px;
+    border-radius: 30px;
+    left:900px;
+    transition: 0.7s;
+    
+
+    box-shadow: 10px 5px 10px 10px azure;
+
+}
+.contant:hover{
+    color: aqua;
+    
+
+}
+.contant h1{
+    position: relative;
+    left:60px;
+    top:40px;
+
+}
+.contant h2{
+    position: relative;
+    left:10px;
+    top:90px;
+
+}
+.end{
+    width: 100%;
+    height: 80px;
+    background-color: azure;
+}
+.vas h1{
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+   
